@@ -157,7 +157,9 @@
       var tlis = obj.data("tlis");
       var tlid = obj.data("tlid");
 
-      if (tlid.length > 0) {
+      var alen = tlid.length;
+
+      if (alen > 0) {
         var tagId = tlid.pop();
 
         var tagBeingRemoved = tlis[tlis.length - 1];
